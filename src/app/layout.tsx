@@ -1,3 +1,5 @@
+//wraps all routes with shared UI (e.g. header/footer)
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
