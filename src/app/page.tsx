@@ -1,4 +1,5 @@
-//defines waht shows up at the homepage
+// src/app/page.tsx
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <h1>Welcome to Lexi</h1>
       <p>A tiny spelling-bee game.</p>
       <ul>
-        <li><a href="/play">Play the game</a></li>
+        <li><Link href="/play">Play the game</Link></li>
       </ul>
     </main>
   );

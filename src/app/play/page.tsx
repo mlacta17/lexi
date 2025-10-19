@@ -1,12 +1,13 @@
-//spelling bee game -> defines what shows up at or play
+// src/app/play/page.tsx
+"use client";
+import Link from "next/link";
 
 export default function PlayPage() {
-    return (
-      <main>
-        <h1>Play</h1>
-        <p>Game goes here.</p>
-        <a href="/">Back home</a>
-      </main>
-    );
-  }
-  
+  return (
+    <main>
+      <h1>Play</h1>
+      <p>Game goes here.</p>
+      <Link href="/">Back home</Link>
+    </main>
+  );
+}
